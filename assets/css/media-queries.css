@@ -2,6 +2,10 @@
     .grid-intro, .grid {
         grid-template-columns: 1fr;
     }
+    .main-bg {
+        background-image: url(../images/main-bg.svg);
+        background-size: 100%;
+    }
     .img-gallery {
         width: 100%;
         max-height: 100%;
