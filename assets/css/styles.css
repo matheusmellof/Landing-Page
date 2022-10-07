@@ -84,7 +84,7 @@ tfoot, table th {
 }
 .main-bg {
     background-image: url(../images/main-bg.svg);
-    background-size: cover;
+    background-size: 100%;
     background-position: center center;
     color: var(--white-color);
 }
