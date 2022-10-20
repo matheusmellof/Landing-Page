@@ -101,12 +101,12 @@ tfoot, table th {
     min-height: 100vh; /*1vh = 1% da altura da viweport*/
 }
 
-/*-------------MENU---------------*/
 .menu {
     position: fixed;
     top: 0;
     width: 100%; 
     border-bottom: 0.1px solid var(--light-color);
+    z-index: 2;
 }
 .menu h1.logo {
     font-size: 2.3rem;
@@ -158,9 +158,7 @@ tfoot, table th {
 .close-menu {
     display: none;
 }
-/*-----------------------------------------*/
 
-/*-----------------Intro-------------------*/
 .grid-intro {
     display: grid;
     grid-template-columns: 1fr 1.5fr;
@@ -184,9 +182,7 @@ tfoot, table th {
     max-width: 100%;
     height: auto;
 }
-/*-----------------------------------------*/
 
-/*-----------------Top 3-------------------*/
 .top-three-content {
     display: flex;
     flex-flow: column nowrap;
@@ -195,7 +191,6 @@ tfoot, table th {
     min-height: 100vh;
     text-align: center;
 }
-/*-----------------------------------------*/
 
 .grid-main-head {
     margin-bottom: 1rem;
@@ -231,9 +226,7 @@ tfoot, table th {
     left: -2rem;
     transform: rotate(5deg);
 }
-/*-------------------------------*/
 
-/*----------Gallery--------------*/
 .img-gallery {
     width: 100%;
     max-width: 36rem;
@@ -246,7 +239,6 @@ tfoot, table th {
 .img-gallery img:hover {
     transform: translate(-3%,3%) scale(1.2) rotate(5deg);
 }
-/*-------------------------------*/
 
 .contact-form {
     grid-column: span 2;
